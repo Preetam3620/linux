@@ -92,7 +92,7 @@ Note : For AMD processors (SVM), the exit handler is typically svm_handle_exit
 
 For Intel processors (VMX), the equivalent function is likely \_vmx_handle_exit, found in arch/x86/kvm/vmx.c.
 
-● Use grep to locate the function handle_exit or a similarly named function. This function processes VM exits.
+Use grep to locate the function handle_exit or a similarly named function. This function processes VM exits.
 
 B. Update the Exit Handler Logic
 
